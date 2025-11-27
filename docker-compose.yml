@@ -1,0 +1,15 @@
+
+---
+
+## ⚡ Getting started (local)
+**Prerequisites**
+- .NET SDK 7.0 or later (`dotnet --version`)
+- SQL Server or Azure SQL (connection string)
+- Redis (optional for caching)
+- Docker (optional)
+
+**Local steps**
+1. Clone:
+   ```bash
+   git clone <REPO_URL>
+   cd <REPO_FOLDER>
