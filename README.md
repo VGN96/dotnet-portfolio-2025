@@ -23,7 +23,23 @@ This repo will store:
 - My backend API work  
 - Notes, learnings, and progress  
 
-### ✔ Status
-Day 1: Setup complete.
+# MyEcommerceAPI
 
-More updates coming soon…
+**Simple E-commerce API (Demo)**  
+ASP.NET Core Web API demonstrating Clean Architecture-style structure, EF Core (InMemory), Swagger UI and basic Product CRUD endpoints. This repo is a focused portfolio piece to show modern .NET skills.
+
+## Tech stack
+- .NET 10 (net10.0)
+- ASP.NET Core
+- Entity Framework Core (InMemory for demo)
+- Swashbuckle / Swagger
+- C#
+- (Optional) Angular frontend (not included)
+
+## Getting started (local)
+1. Ensure .NET SDK 10 is installed and `global.json` points to it.
+2. Restore & build
+   ```bash
+   dotnet restore
+   dotnet build
+
