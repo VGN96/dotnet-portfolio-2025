@@ -1,45 +1,57 @@
-# Vaishali’s .NET Portfolio 🚀
+# Vaishali’s .NET Portfolio 🚀  
+**Building real-world, production-ready applications to land a high-paying .NET Developer job in 2025.**
 
-Welcome!  
-This repository is the home for my **60-day journey** to land a **high-paying .NET developer job**.
+---
 
-### 💼 About Me
-7+ years of experience in:
-- C#, ASP.NET Core  
-- REST APIs  
-- EF Core  
-- SQL Server  
-- MVC & Clean Architecture  
-- JavaScript, AngularJS/Angular  
-- Cloud fundamentals (Azure – 40% knowledge)
+## 🔥 Project: MyEcommerceAPI (ASP.NET Core Web API)
 
-### 🎯 Current Goal
-Build strong **portfolio projects**, strengthen **DSA**, upskill in **Azure**, and prepare for **US remote / high-pay roles**.
+This is a clean, scalable, modern **ASP.NET Core Web API** designed as part of my professional .NET portfolio.  
+It demonstrates my ability to build real-world backend systems using:
 
-### 🗂 Repository Purpose
-This repo will store:
-- My practice projects  
-- My architecture explorations  
-- My backend API work  
-- Notes, learnings, and progress  
+- ✔ ASP.NET Core 8 Web API  
+- ✔ Repository & DTO patterns  
+- ✔ Entity Framework Core (coming soon)  
+- ✔ Clean folder architecture  
+- ✔ Separation of concerns (Controllers → DTOs → Data → Models)  
+- ✔ Versioning, dependency injection, and best practices  
+- ✔ Authentication with JWT (upcoming)
 
-# MyEcommerceAPI
+---
 
-**Simple E-commerce API (Demo)**  
-ASP.NET Core Web API demonstrating Clean Architecture-style structure, EF Core (InMemory), Swagger UI and basic Product CRUD endpoints. This repo is a focused portfolio piece to show modern .NET skills.
+# 🌟 Features Implemented  
+### ✅ Core API Features  
+- Organized Controllers  
+- DTOs for request/response mapping  
+- Modular Models & Data structure  
+- Strong folder organization within `src/`
 
-## Tech stack
-- .NET 10 (net10.0)
-- ASP.NET Core
-- Entity Framework Core (InMemory for demo)
-- Swashbuckle / Swagger
-- C#
-- (Optional) Angular frontend (not included)
+### 🔜 Coming Next  
+- JWT Authentication & Authorization  
+- EF Core with SQL Server  
+- Repository + Unit of Work pattern  
+- Global Exception Handling  
+- Logging & Serilog  
+- Swagger documentation  
+- Clean Architecture (Domain, Application, Infrastructure, API layers)
 
-## Getting started (local)
-1. Ensure .NET SDK 10 is installed and `global.json` points to it.
-2. Restore & build
-   ```bash
-   dotnet restore
-   dotnet build
+---
 
+# 🧱 Project Structure
+
+dotnet-portfolio-2025/
+│
+├── src/
+│ └── MyEcommerceAPI/
+│ ├── Controllers/
+│ ├── DTOs/
+│ ├── Data/
+│ ├── Models/
+│ ├── Properties/
+│ ├── Program.cs
+│ ├── MyEcommerceAPI.csproj
+│ ├── MyEcommerceAPI.sln
+│ └── WeatherForecast.cs
+│
+├── .gitignore
+├── global.json
+└── README.md
