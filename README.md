@@ -130,14 +130,10 @@ Ongoing active development
 
 Hi, I’m Vaishali Soni, a .NET Developer with 7+ years of experience building scalable backend systems.
 
-Email: your email
-LinkedIn: your linkedIn
+Email: Vaishali Ranpara
+LinkedIn: https://www.linkedin.com/in/vaishali-ranpara-3a4b24a8/
 
 ⭐ If you find this project useful, please star the repo!
 
 
-
----
-
-Let me know if you want a shorter version, a more technical version, or a fully Clean Architecture README.
 
