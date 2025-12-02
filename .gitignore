@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Build folders
 bin/
 obj/
@@ -30,3 +31,53 @@ publish/
 # Secrets
 appsettings.Development.json
 appsettings.Local.json
+=======
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment files
+.env
+
+# Publish output
+publish/
+out/
+
+# DotNet artifacts
+*.dll
+*.pdb
+*.cache
+*.db
+
+# MacOS system files
+.DS_Store
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Rider settings (if ever used)
+.idea/
+
+# Temp files
+*.tmp
+*.temp
+>>>>>>> 7706ea3 (chore: initial commit - MyEcommerceAPI project)
