@@ -1,33 +1,44 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Build folders
+=======
+# Visual Studio / .NET
+>>>>>>> 3637094 (Move project files into src/ directory)
 bin/
 obj/
-out/
-
-# User-specific files
+.vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
-# Logs
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+project.lock.json
+packages/
+
+# dotnet user secrets
+secrets.json
+
+# logs
+logs/
 *.log
 
-# Visual Studio
-.vs/
-
-# NuGet packages
-*.nupkg
-packages/
-.nuget/
-
-# Publish output
+# build outputs
 publish/
+*.publishsettings
 
-# Cache
-.cache/
-.temp/
+# VS Code
+.vscode/
 
+<<<<<<< HEAD
 # Secrets
 appsettings.Development.json
 appsettings.Local.json
@@ -81,3 +92,13 @@ out/
 *.tmp
 *.temp
 >>>>>>> 7706ea3 (chore: initial commit - MyEcommerceAPI project)
+=======
+# ASP.NET temp files
+appsettings.*.json.user
+
+# Rider
+.idea/
+
+# Runtime
+*.pid
+>>>>>>> 3637094 (Move project files into src/ directory)
