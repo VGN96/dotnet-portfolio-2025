@@ -102,3 +102,11 @@ appsettings.*.json.user
 # Runtime
 *.pid
 >>>>>>> 3637094 (Move project files into src/ directory)
+# OS / Editor / .NET
+.DS_Store
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
