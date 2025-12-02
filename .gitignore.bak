@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Build folders
+=======
+# Visual Studio / .NET
+>>>>>>> 3637094 (Move project files into src/ directory)
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+project.lock.json
+packages/
+
+# dotnet user secrets
+secrets.json
+
+# logs
+logs/
+*.log
+
+# build outputs
+publish/
+*.publishsettings
+
+# VS Code
+.vscode/
+
+<<<<<<< HEAD
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+=======
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment files
+.env
+
+# Publish output
+publish/
+out/
+
+# DotNet artifacts
+*.dll
+*.pdb
+*.cache
+*.db
+
+# MacOS system files
+.DS_Store
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Rider settings (if ever used)
+.idea/
+
+# Temp files
+*.tmp
+*.temp
+>>>>>>> 7706ea3 (chore: initial commit - MyEcommerceAPI project)
+=======
+# ASP.NET temp files
+appsettings.*.json.user
+
+# Rider
+.idea/
+
+# Runtime
+*.pid
+>>>>>>> 3637094 (Move project files into src/ directory)
