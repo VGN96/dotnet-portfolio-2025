@@ -1,45 +1,46 @@
 # Vaishali’s .NET Portfolio 🚀  
-**Building real-world, production-ready applications to land a high-paying .NET Developer job in 2025.**
+
+Building real-world, production-ready applications to land a high-paying .NET Developer job in 2025.
 
 ---
 
-## 🔥 Project: MyEcommerceAPI (ASP.NET Core Web API)
-
-This is a clean, scalable, modern **ASP.NET Core Web API** designed as part of my professional .NET portfolio.  
-It demonstrates my ability to build real-world backend systems using:
-
-- ✔ ASP.NET Core 8 Web API  
-- ✔ Repository & DTO patterns  
-- ✔ Entity Framework Core (coming soon)  
-- ✔ Clean folder architecture  
-- ✔ Separation of concerns (Controllers → DTOs → Data → Models)  
-- ✔ Versioning, dependency injection, and best practices  
-- ✔ Authentication with JWT (upcoming)
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-8.0-blue" />
+  <img src="https://img.shields.io/badge/C%23-Backend%20Developer-purple" />
+  <img src="https://img.shields.io/badge/Architecture-Clean%20Architecture-brightgreen" />
+  <img src="https://img.shields.io/badge/Status-Active%20Development-orange" />
+</p>
 
 ---
 
-# 🌟 Features Implemented  
-### ✅ Core API Features  
-- Organized Controllers  
-- DTOs for request/response mapping  
-- Modular Models & Data structure  
-- Strong folder organization within `src/`
+# 📦 MyEcommerceAPI (ASP.NET Core Web API)
 
-### 🔜 Coming Next  
-- JWT Authentication & Authorization  
-- EF Core with SQL Server  
-- Repository + Unit of Work pattern  
+A clean, scalable ASP.NET Core 8 Web API demonstrating professional backend engineering practices, clean structure, separation of concerns, and a foundation for Clean Architecture.
+
+---
+
+## 🌟 Features
+
+- ASP.NET Core Web API  
+- Controllers, DTOs, Models  
+- Structured project inside `/src`  
+- Separation of concerns  
+- Ready for upcoming Clean Architecture layers  
+
+Upcoming:
+- JWT Auth  
+- EF Core + SQL Server  
+- Repository Pattern  
+- Services Layer  
+- Logging + Serilog  
 - Global Exception Handling  
-- Logging & Serilog  
-- Swagger documentation  
-- Clean Architecture (Domain, Application, Infrastructure, API layers)
+- Swagger Enhancements  
 
 ---
 
-# 🧱 Project Structure
+## 🧱 Project Structure
 
 dotnet-portfolio-2025/
-│
 ├── src/
 │ └── MyEcommerceAPI/
 │ ├── Controllers/
@@ -50,8 +51,93 @@ dotnet-portfolio-2025/
 │ ├── Program.cs
 │ ├── MyEcommerceAPI.csproj
 │ ├── MyEcommerceAPI.sln
-│ └── WeatherForecast.cs
-│
+│ ├── WeatherForecast.cs
+│ └── appsettings.json
 ├── .gitignore
-├── global.json
 └── README.md
+
+
+---
+
+## 🏗️ Clean Architecture (Future Implementation)
+
+
+
+src/
+├── Domain/
+├── Application/
+├── Infrastructure/
+└── Api/
+
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/VGN96/dotnet-portfolio-2025.git
+cd dotnet-portfolio-2025/src/MyEcommerceAPI
+dotnet restore
+dotnet run
+
+
+Swagger:
+
+https://localhost:5001/swagger
+
+
+Development mode:
+
+dotnet watch run
+
+📘 Tech Stack
+
+C#
+
+ASP.NET Core 8
+
+Entity Framework Core (upcoming)
+
+SQL Server (upcoming)
+
+Clean Architecture (upcoming)
+
+Swagger / Postman
+
+Git / GitHub
+
+🛣 Roadmap
+
+Week 1: JWT + EF Core
+Week 2: Repository Pattern + Services
+Week 3: Middlewares + Validation
+Week 4: Deployment Prep (Azure/AWS)
+💼 For Recruiters
+
+This project shows:
+
+Clean coding practices
+
+Real API architecture
+
+Project organization
+
+Preparedness for enterprise-level .NET backend roles
+
+Ongoing active development
+
+🙋‍♀️ About Me
+
+Hi, I’m Vaishali Soni, a .NET Developer with 7+ years of experience building scalable backend systems.
+
+Email: your email
+LinkedIn: your linkedIn
+
+⭐ If you find this project useful, please star the repo!
+
+
+
+---
+
+Let me know if you want a shorter version, a more technical version, or a fully Clean Architecture README.
+
