@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using MyEcommerceAPI.Data;    // adjust namespace if different
 using Microsoft.OpenApi;
+using Application.Interfaces;
+using Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddScoped<IDateTimeService, DateTimeService>();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyEcommerceAPI", Version = "v1" });
